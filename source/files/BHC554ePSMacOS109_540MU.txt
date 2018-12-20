@@ -1,0 +1,170 @@
+======================================================================
+
+KONICA MINOLTA bizhub C554/C364 Series Printer
+Printer Software Document
+
+======================================================================
+This document contains information about the software of this printer.
+In addition, the problems that may happen when this printer is used 
+and the solutions are mentioned.
+Read through this document before you use this printer.
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+ Attentions and Restrictions when using this printer
+///////////////////////////////////////////////////////////////////////////////
+
+  This printer offers many convenient functions.
+  Depending on the application, similar functions are realized by itself.
+  In such a case, please be careful of the setting method etc.
+
+  Attentions and Restrictions of each functions are shown below.
+
+(1)Paper Size Setting
+  1)When not printing as paper size setting
+    - Paper size can be set by Printer property, but it may become invalid 
+      the paper size that is specified on the printer property according to 
+      the application to use.
+      ==> Please set the paper size on the Print menu of the application.
+  2)Wide Paper
+    When you use a Wide paper, load the paper in the tray and set the paper 
+    size in the printer before the printing operation.
+    ==> For the setting procedure, please refer to the User's Guide for the 
+        printer.
+
+(2)Paper Tray Setting
+  1)Cannot set Paper Tray.
+    - To set an optional tray for the Paper Tray, the optional Paper Source unit 
+      is necessary.  Also, you need to select the Paper Source unit in the 
+      Device Option setting of the printer driver.
+      ==> Please check the existence of Paper Source unit and the Device Option 
+          setting.
+    - Paper Tray may have restriction depending on the specified paper size.
+  2)When Paper Tray setting doesn't work as specified.
+    - Paper Tray can be set by the printer property, but it may become invalid 
+      the Paper Tray that is specified on the printer property according to 
+      the application to use.
+      ==> Please set the Paper Tray on the Print menu of the application.
+    - Paper may be fed from the tray other than the specified one depending on 
+      the paper size set up on the printer.
+
+(3)Original Orientation Setting
+  1)Original Orientation setting doesn't work as specified.
+    - Original Orientation can be set by the printer property, but it may become 
+      invalid the Original Orientation that is specified on the printer property 
+      depending on the application to use.
+      ==> Please set Original Orientation in the application.
+
+(4)Collate Functions
+  1)Collate doesn't work as specified.
+    Collate is able to be set by the printer property, but the following 
+    situation may occur depending on the application to use if you specify 
+    Collate on the Print menu.
+    - If Combination is specified, the last page of No. n copies 
+      and the first page of No. n+1 copies are printed on the same paper.
+    - If 2-Sided is specified, the first page of No. n+1 copies is printed 
+      on 2nd side of the last page of No. n copies.
+    - If Booklet is specified, all prints are collected into one book and printed.
+    - If Staple is specified, all prints are collected into one set and stapled.
+    - If Distribution Control Number is specified, all prints are printed 
+      with the same number.
+    - If Secure Print is specified, the waiting documents for print for specified 
+      number of copies are stored in the printer.
+    - If Watermark is specified only on the first page of multiple copies of 
+      printing, it will be stamped only on the first page of the first copy.
+    - Even if Offset is specified, it will be output without offset.
+    ==> Please set No Collate on the Print menu and specify Collate on the printer 
+        property.
+
+(5)Copies Setting
+  1)Proof Print and Copies
+    - In Microsoft Excel, even though Proof Print function is selected and multiple 
+      copies are set for print, all copies of document will be printed without 
+      storing.
+      *Proof Print function can not be specified with 1 copy.  Also, even if the 
+       multiple copies are set in Excel, Proof Print function is cancelled because 
+       all data are printed only 1 copy with number of set.
+      This can be solved by un-checking [Print on copy unit].
+  2)Copies Setting in Application
+    Some applications may allow you to set copies more than the device's limitation, 
+    but the printer can not print as specified in the applications.
+
+(6)Front Cover / Back Cover
+  1)Paper for Front Cover / Back Cover
+    When you use Front and/or Back Cover function, it is necessary to set the correct 
+    paper beforehand in the Paper Tray for Front and/or Back Cover that is specified 
+    by the printer driver.
+
+(7)User Authentication / Account Track
+  1) Printing under User Authentication and Account Track
+    When you use the printer that requires User Authentication / Account Track before 
+    printing, print is not accepted without entering the correct User Name, Department 
+    Name and Password.
+  2)When the Limitation for printing is exceeded at the Account Track
+    When the Account Track mode and Limitation for printing are enabled in the printer, 
+    if there is a job that stops in the middle of printing as the limit is reached, 
+    any following jobs are not printed unless the stopping job is canceled.
+    Please ask your administrator to cancel the limitation to output the stopping 
+    job or someone must delete the job after confirmation.
+
+(8)Booklet and Saddle Stitch
+  1)Blank of Paper Center Part
+    When Booklet and Saddle Stitch are specified, blank space with a width of about 
+    10mm will occur in the center of paper.
+    ==> Please make more than 5mm blank space of the original, then print it.
+
+(9)Custom Size
+  1)Paper Width
+    If you specify  a paper wider greater than 12.248 inches  (311.1mm) when 
+    you set the custom size, the printing results are not guaranteed.
+
+(10)Others
+  1)Power OFF while printing / processing
+    Do not turn off the printer while it is printing / processing as a malfunction 
+    may occur. If the power is turned off by mistake, and a malfunction occurs, 
+    turn off the printer once and then turn on again.
+  2)Screen Font
+    When printing with using screen fonts installed in your computer, some of 
+    fonts or characters may not be printed correctly.
+  3)Print by USB on Mac OS
+    You cannot use on Mac printing by USB.
+  4)[Quality] on Mac OS X
+    [Quality]tab setting may not work depending on the original data.
+  5)Print with Root authority
+    Print setting screen is not displayed correctly when logged in with Root
+    authority. Please print after logging with another authority.
+  6)Standard OS function and Printer function
+    There are 2 types of setting mode in the print setting screen;
+    one is set with OS, and the other is set with printer.
+    If printing is not done correctly, do not use the OS function.
+    The OS function is not applicable for the following.
+    - Mac OS X:[Output Method], [Layout / Finish], [Paper Tray / Output Tray], 
+               [Cover Mode / Transparency Interleave], [Per Page Setting], 
+               [Stamp / Composition] and [Quality].
+  7) [Printer Sharing] in MacOSX
+    Printer sharing in MacOSX is not supported in this printer driver.
+    When printer sharing is performed, the printer driver screen may not be 
+    displayed correctly on the client computer.
+  8)Add Printer
+    When the driver is not automatically selected and the Generic PostScript Printer 
+    is selected, please choose the printer driver you want to add.
+  9)Profile Download 
+    If the download manager dialog is not displayed when you click Download Manager in 
+    the Quality Adjustment screen, please start the download manager manually 
+    via the application folder.
+
+  -----------------------------------------------------
+  Cautions and restrictions with specific applications
+  -----------------------------------------------------
+(1)Microsoft Office
+  1)AutoShapes Graphics Print in Microsoft Office
+    If the [Transparency] check box of [Fill] column in [Format AutoShape...]-
+    [Colors and Lines]tab is ON, the paint-out part of graphics may not be 
+    printed correctly at the time of reduction and enlargement print.
+
+
+* Company names and product names written in this document are the 
+  registered trademarks or trademarks of their respective companies.
+
+Copyright (C) 2006 KONICA MINOLTA, INC.
